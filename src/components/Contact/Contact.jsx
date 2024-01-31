@@ -1,9 +1,35 @@
-import React from "react";
+import { React, useRef } from "react";
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { RiMessengerLine } from "react-icons/ri";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ygmkpm8",
+        "template_m62bp33",
+        form.current,
+        "GZ7AVo1o9uF_x99TQ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <>
       <section id="contact" className="container">
@@ -31,11 +57,11 @@ const Contact = () => {
             </article>
           </div>
 
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
-              name="your_name"
-              id="your_name"
+              name="name"
+              id="name"
               placeholder="Your Full Name"
               required
             />
@@ -47,7 +73,7 @@ const Contact = () => {
               required
             />
             <textarea
-              name="msg"
+              name="message"
               id="message"
               cols="30"
               rows="5"
