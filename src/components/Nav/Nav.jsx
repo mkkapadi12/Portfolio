@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { LuHeartHandshake } from "react-icons/lu";
+// import { LuHeartHandshake } from "react-icons/lu";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 
@@ -33,13 +33,13 @@ const Nav = () => {
           >
             <BiBook />
           </a>
-          <a
+          {/* <a
             href="#services"
             onClick={() => setActiveNav("#services")}
             className={activeNav === "#services" ? "active" : ""}
           >
             <LuHeartHandshake />
-          </a>
+          </a> */}
           <a
             href="#contact"
             onClick={() => setActiveNav("#contact")}

@@ -1,10 +1,11 @@
 #experience {
   padding-top: 5rem;
+  height: auto;
 }
 
 .exp_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin: 3rem auto 0 auto;
 }
@@ -30,8 +31,8 @@
 
 .exp_content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .exp_details {
@@ -69,5 +70,8 @@
     width: 100%;
     padding: 2.5rem 1.3rem;
     margin: 0px auto;
+  }
+  .exp_content {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

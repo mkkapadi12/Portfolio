@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
 import Photo from "../../assets/m.jpg";
-import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa6";
-import { VscFolderLibrary } from "react-icons/vsc";
+// import { FaAward } from "react-icons/fa";
+// import { FaUsers } from "react-icons/fa6";
+// import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
             </div>
           </div>
           <div className="about_content">
-            <div className="cards">
+            {/* <div className="cards">
               <article className="about__card">
                 <FaAward className="about_icon" />
                 <h5>Experience</h5>
@@ -34,12 +34,22 @@ const About = () => {
                 <h5>Projects</h5>
                 <small>80+ Completed</small>
               </article>
-            </div>
+            </div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequuntur harum assumenda pariatur, numquam quod eveniet!
-              Repudiandae, tempora saepe voluptate quos sint deserunt nobis
-              nesciunt ex soluta tenetur eaque numquam omnis.
+              My name is Mayur Kapadi. I'm a B.Tech student at Government
+              Engineering College, Gandhinagar Computer Engineering Department. I
+              was born and raised in Gujarat.
+            </p>
+            <p>
+              I love to do programming , Web development including both
+              front-end and backend and also intrested in Web Developer. I am
+              very passionate about programming and engineering as a whole.
+            </p>
+            <p>
+              I like to travel. I believe travelling gives you a new perspective
+              to everything. You get to know a lot about the different cultures,
+              the cuisines, their history, the language and all the small unique
+              things every place has to offer.
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

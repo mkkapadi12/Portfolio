@@ -6,8 +6,8 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Project from "./components/Projects/Project";
-import Services from "./components/Service/Services";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Services from "./components/Service/Services";
+// import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Project />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>
