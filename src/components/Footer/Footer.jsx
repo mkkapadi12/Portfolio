@@ -42,16 +42,24 @@ const Footer = () => {
           </li>
         </ul>
         <div className="social_link">
-          <a href="#" className="social_icon">
+          <a
+            href="https://www.instagram.com/mk_mayur_24/"
+            className="social_icon"
+            target="_blank"
+          >
             <FaInstagram />
           </a>
-          <a href="#" className="social_icon">
+          <a href="#" className="social_icon" target="_blank">
             <FiFacebook />
           </a>
           <a href="#" className="social_icon">
             <FaXTwitter />
           </a>
-          <a href="#" className="social_icon">
+          <a
+            href="https://www.linkedin.com/in/mayurkapadi24/"
+            className="social_icon"
+            target="_blank"
+          >
             <FaLinkedin />
           </a>
           <a href="#" className="social_icon">
