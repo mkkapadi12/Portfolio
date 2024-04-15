@@ -1,54 +1,30 @@
 import React from "react";
 import "./Project.css";
-import Pro1 from "../../assets/Cara1.png";
-import Pro2 from "../../assets/Todo1.png";
-import Pro3 from "../../assets/HairStudio1.png";
-import Pro4 from "../../assets/news.png";
-import Pro5 from "../../assets/FreshStart.png";
-import Pro6 from "../../assets/NsPark.png";
+import Pro1 from "../../assets/E-commerce1.jpg";
+import Pro2 from "../../assets/budget1.jpg";
+import Pro3 from "../../assets/FreshStart.png";
 
 const data = [
   {
     id: "1",
     image: Pro1,
-    title: "Cara - shopping Site",
-    github: "https://github.com/mkkapadi12/mayurcarashopping",
-    demo: "https://mkkapadi12.github.io/mayurcarashopping/",
+    title: "E - commerce",
+    github: "https://github.com/mkkapadi12/mayurEcommerce",
+    demo: "https://mayuronlineshop.vercel.app",
   },
   {
     id: "2",
     image: Pro2,
-    title: "To Do List - React App",
-    github: "https://github.com/mkkapadi12/todo_list",
-    demo: "",
+    title: "Budget App",
+    github: "https://github.com/mkkapadi12/budget-app",
+    demo: "https://maintainyourbudget.vercel.app",
   },
   {
     id: "3",
     image: Pro3,
-    title: "Hair Studio",
-    github: "",
-    demo: "https://mayurkapadihairstudio.netlify.app/",
-  },
-  {
-    id: "4",
-    image: Pro4,
-    title: "React - News App",
-    github: "https://github.com/mkkapadi12/newsmonkeyapp",
-    demo: "",
-  },
-  {
-    id: "5",
-    image: Pro5,
-    title: "Fresh Start",
+    title: "Fresh start",
     github: "https://github.com/mkkapadi12/FreshStart",
-    demo: "https://fresh-start-rahulpanchal0106.vercel.app/index.html",
-  },
-  {
-    id: "6",
-    image: Pro6,
-    title: "Ns Park Infotech",
-    github: "",
-    demo: "https://nsparkinfotech.netlify.app/",
+    demo: "https://fresh-start-rahulpanchal0106.vercel.app/",
   },
 ];
 

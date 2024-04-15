@@ -7,6 +7,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
+  const getyear = new Date().getFullYear();
+
   return (
     <>
       <section id="footer" className="container">
@@ -28,15 +30,9 @@ const Footer = () => {
           <li>
             <a href="#experience">Experience</a>
           </li>
-          {/* <li>
-            <a href="#services">Services</a>
-          </li> */}
           <li>
             <a href="#Project">Portfolio</a>
           </li>
-          {/* <li>
-            <a href="#Testimonials">Testimonials</a>
-          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -67,7 +63,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="copyright">
-          &copy; Mayur Portfolio. All rights reserved
+          &copy; Mayur Kapadi {getyear} All rights reserved.
         </div>
       </section>
     </>
