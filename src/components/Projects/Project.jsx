@@ -10,7 +10,7 @@ const data = [
     image: Pro1,
     title: "E - commerce",
     github: "https://github.com/mkkapadi12/mayurEcommerce",
-    demo: "https://mayuronlineshop.vercel.app",
+    demo: "https://nensiantalashop.vercel.app/",
   },
   {
     id: "2",
